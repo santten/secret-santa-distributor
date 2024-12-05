@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --green: #335c33;
+    --red: #cc0000;
+}
+
+
+main {
+    background-color: white;
+    color: var(--red);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 2rem auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+}
+
+.nameField {
+    background-color: white;
+    border: var(--red) 2px solid;
+    color: var(--red);
+    font-weight: 600;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0;
+    width: 24rem;
+}
+
+#fieldamount {
+    background-color: white;
+    border: var(--red) 2px solid;
+    color: var(--red);
+    font-weight: 600;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    max-width: 24rem; 
+    margin: 1rem auto;
+}
+
+#fieldParams {
+    display: flex;
+    flex-direction: column;
+}
+
+.fieldList {
+    list-style-type: none;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--green);
+}
+
+body, input, button {
+    font-family: Verdana, Tahoma, sans-serif;
+    color: var(--red);
+}
+
+button {
+    background-color: var(--green);
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+.resultbox {
+    padding: 0.5rem;
+    margin: 1rem auto;
+    border: dashed var(--green);
+    max-width: 24rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.resultbox button {
+    background-color: var(--red);
+}
